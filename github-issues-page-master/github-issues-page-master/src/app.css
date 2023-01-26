@@ -1,0 +1,26 @@
+
+html,body{
+    height: 100 vh;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    height: 100 vh;
+    align-items: center;
+}
+
+li{
+    list-style-type: armenian;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 0 300px;
+    /*  the size of the cards can be adjusted using this */
+}
